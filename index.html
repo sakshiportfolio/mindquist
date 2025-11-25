@@ -1,0 +1,49 @@
+<f<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MindQuest Quiz Game</title>
+
+  <!-- Link CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- Main Container -->
+  <div class="container">
+    
+    <!-- Title -->
+    <h1 class="app-title">MindQuest Quiz Game</h1>
+
+    <!-- QUIZ BOX -->
+    <div id="quizBox" class="quiz-box hidden">
+      <h2 id="qText"></h2>
+
+      <!-- Options -->
+      <div id="opts" class="options"></div>
+
+      <!-- Next Button -->
+      <button id="nextBtn" class="btn">Next ➜</button>
+    </div>
+
+    <!-- START SCREEN -->
+    <div id="startScreen" class="start-screen">
+      <button id="startBtn" class="btn start-btn">Start Quiz</button>
+    </div>
+
+    <!-- RESULT SCREEN -->
+    <div id="resultScreen" class="result-screen hidden">
+      <h2>Your Score</h2>
+      <p id="scoreText"></p>
+      <button id="restartBtn" class="btn">Restart</button>
+    </div>
+
+  </div>
+
+  <!-- Include JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
